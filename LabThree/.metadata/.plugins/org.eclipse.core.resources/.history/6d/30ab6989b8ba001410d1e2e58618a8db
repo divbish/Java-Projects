@@ -1,0 +1,23 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int alpha = 17;
+
+		int beta =13;
+
+		if ( alpha < 18)
+
+		if (beta > 12)
+
+		System.out.println ( "Hello");
+
+		else System.out.println ( "Goodbye");
+
+	}
+
+}

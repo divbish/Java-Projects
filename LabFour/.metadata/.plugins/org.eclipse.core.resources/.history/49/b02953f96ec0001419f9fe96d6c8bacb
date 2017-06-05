@@ -1,0 +1,19 @@
+package labFourPackage;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int product =1;
+
+		int number = 1;  
+		while ( number <=3);
+		{   product = product * number;
+		     number = number + 1;
+		}
+		System.out.println ( product); 
+
+		 
+	}
+
+}

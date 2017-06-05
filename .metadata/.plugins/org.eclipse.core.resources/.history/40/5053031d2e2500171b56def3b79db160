@@ -1,0 +1,20 @@
+package oops;
+
+public class SavingAccount extends BankAccount {
+
+	public SavingAccount() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public int deposit(int amount){//Overridden method
+		return 2;
+	}
+	public int withdraw(int amount){//Overridden method
+		return 100;
+	}
+	
+	public void withdraw(int amount){//Overloaded method
+		return;
+	}
+
+}

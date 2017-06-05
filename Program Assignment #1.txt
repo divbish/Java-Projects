@@ -1,0 +1,103 @@
+PROGRAM ASSIGNMENT #1
+
+package programAssignment1;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class ProgramAssignment1 {
+
+	public static void main(String[] args) 
+	{
+		Scanner keyboard = new Scanner (System.in);
+		DecimalFormat deciFor = new DecimalFormat();
+		deciFor.setMaximumFractionDigits(6);
+		deciFor.setMinimumFractionDigits(6);
+		double BMI,weight,height,kg,meter;
+		weight = 130;
+		height = 67;
+		kg = weight * 0.4536;
+		meter = height * 0.0254;
+		BMI = kg / (meter * meter);
+		System.out.printf("The weight is %3.1f pound(s) or %3.0f kilogram(s)" ,weight, kg);
+    	System.out.printf("\nThe height is %3.1f inches or %3.4f meter(s)" ,height, meter);
+        System.out.println("\nThe Body Mass Index is " + BMI);
+        while (true)
+        {
+	        System.out.println("\nEnter your weight and height");
+	        weight = keyboard.nextDouble();
+	        height = keyboard.nextDouble();
+	        
+	        if ((height<=0)||(weight <=0))
+	        	System.out.println("You entered invalid height or weight");
+	        
+	        else
+	        {
+	        	kg = weight * 0.4536;
+				meter = height * 0.0254;
+		    	BMI = kg / (meter * meter);
+		    	System.out.printf("The weight is %3.2f pound(s) or %3.2f kilogram(s)" ,weight, kg);
+		    	System.out.printf("\nThe height is %3.2f inches or %3.2f meter(s)" ,height, meter);
+		        System.out.println("\nThe Body Mass Index is " + deciFor.format(BMI) );
+		        if (BMI < 18.5)
+		        	System.out.println("you are underweight");
+		        else if(BMI >=18.5 && BMI <= 24.9) 
+		        		System.out.println("you are healthy weight");
+		        else if(BMI >= 25 && BMI <=29.9) 
+		        		System.out.println("you are overweight");
+		        else
+	            	System.out.println("you are obese");
+		   
+		        	
+		     }
+        }
+        
+	}
+
+}
+
+OUTPUT
+
+The weight is 130.0 pound(s) or  59 kilogram(s)
+The height is 67.0 inches or 1.7018 meter(s)
+The Body Mass Index is 20.361011985111517
+
+
+Enter your weight and height
+100 0
+You entered invalid height or weight
+
+Enter your weight and height
+-120 72
+You entered invalid height or weight
+
+Enter your weight and height
+230 72
+The weight is 230.00 pound(s) or 104.33 kilogram(s)
+The height is 72.00 inches or 1.83 meter(s)
+The Body Mass Index is 31.193812
+you are obese
+
+Enter your weight and height
+200 74
+The weight is 200.00 pound(s) or 90.72 kilogram(s)
+The height is 74.00 inches or 1.88 meter(s)
+The Body Mass Index is 25.678649
+you are overweight
+
+
+Enter your weight and height
+160 68
+The weight is 160.00 pound(s) or 72.58 kilogram(s)
+The height is 68.00 inches or 1.73 meter(s)
+The Body Mass Index is 24.328076
+you are healthy weight
+
+
+Enter your weight and height
+100 70
+The weight is 100.00 pound(s) or 45.36 kilogram(s)
+The height is 70.00 inches or 1.78 meter(s)
+The Body Mass Index is 14.348600
+you are underweight
+

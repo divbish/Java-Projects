@@ -1,0 +1,16 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner keyboard = new Scanner(System.in);
+		int x = keyboard.nextInt();
+		if( x>=-4 &&  x<=84)
+			System.out.println("yes");
+
+	}
+
+}

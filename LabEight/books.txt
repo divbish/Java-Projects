@@ -1,0 +1,12 @@
+The Great Gatsby
+FScott Fitzgerald
+fiction
+5
+The Sun Also Rises
+Ernest Hemingway
+fiction
+3
+Java
+Walter Savitch
+non-fiction
+25

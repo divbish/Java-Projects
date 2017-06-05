@@ -1,0 +1,20 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int OkafurPoints=26;
+
+		String  winner;
+
+		if ( OkafurPoints > 25)
+
+		then  winner = "Duke";
+
+		else   winner = "Kentucky";
+	}
+
+}

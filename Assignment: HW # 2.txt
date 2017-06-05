@@ -1,0 +1,30 @@
+Name: Divya Bishnoi
+Date: 2/3/2015
+IS-612
+
+Page 28
+
+There are well defined grammatical rules for a programming language. These rules are required to be followed very strictly in a program, and the compiler detects wherever they are violated. These mistakes in the grammar of a program are called Syntax errors.
+
+A logic  is required to design an algorithm or a solution to a given problem. When there is a mistake in the algorithm it is known as Logic error. Despite of no syntax error the program then gives incorrect output.
+
+ Page 67
+
+Variable names in java - rate1, TimeLimit, numberOfwindows 
+       TimeLimit is not recommended variable name,as the first letter should not be capital.
+
+2.   Yes, java is case sensitive language.
+
+3.    int count = 0;
+
+4.  double rate=0.0, time = 0.0;
+
+5. int miles = 0;
+   double FloeRate = 50.56;
+
+6.  Recommended naming convention is to use all uppercase letters with each word separated by underscore.
+
+7.   public static final int HOURS_PER_DAY=24;
+
+8.   interest = balance * 0.05;
+				

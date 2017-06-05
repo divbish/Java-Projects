@@ -1,0 +1,13 @@
+package oops;
+
+public abstract class BankAccount {
+	private int accountNumber;
+	private String customerName;
+	protected int balance;
+	
+	public abstract int withdraw(int amount);
+	
+	public int deposit(int amount){
+		return 1;
+	}
+}

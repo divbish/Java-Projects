@@ -1,0 +1,205 @@
+Page # 40.
+
+Question 6. 
+
+Ans- When these lines of code are written within scope of main function  are executed and generates the following output:
+
+My age is
+20
+
+Question 8.
+Ans- 
+package lab1Package;
+
+import java.util.Scanner;
+
+public class Myage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age;
+		Scanner keyboard = new Scanner (System.in);
+		System.out.println("Enter your age");
+           age = keyboard.nextInt ( );
+		System.out.println ("Your age is");
+		System.out.println (age);
+		System.out.println("Enter your brother's age");
+		age = keyboard.nextInt ( );
+		System.out.println ("Your brother's age is");
+		System.out.println (age);
+	}
+
+}
+
+OUTPUT:
+Enter your age
+25
+Your age is
+25
+Enter your brother's age
+20
+Your brother's age is
+20
+Page # 68
+
+Question 9.
+
+package lab1Package;
+
+import java.util.Scanner;
+
+public class InterestCalculator {
+
+	public static void main(String[] args) {
+        double interest,balance,rate; 
+        Scanner keyboard = new Scanner (System.in);
+        System.out.println ("enter balance");
+        balance = keyboard.nextDouble();
+        System.out.println ("enter rate");
+        rate = keyboard.nextDouble();
+        interest = balance * rate;
+        System.out.println ("The value of interest is " + interest);
+        balance = 200;
+        rate = 50;
+        interest = balance * rate;
+        System.out.println ("The value of interest is " + interest);
+	}
+
+}
+
+OUTPUT:
+
+
+
+enter balance
+54
+enter rate
+7
+The value of interest is 378.0
+The value of interest is 10000.0
+
+
+
+
+
+
+Question 10.
+
+Ans.
+
+package labTwoPackage;
+
+import java.util.Scanner;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int count;
+		Scanner keyboard = new Scanner (System.in);
+		System.out.println("enter count");
+		count = keyboard.nextInt();
+		count = count + 3;
+		System.out.println("The value of count is " + count);
+		count = 100;
+		count = count + 3;
+		System.out.println("The value of count is " + count);
+		
+
+	}
+
+}
+
+OUTPUT:
+
+enter count
+20
+The value of count is 23
+The value of count is 103
+
+
+
+
+
+
+
+
+
+
+
+Question 11.
+
+package labTwoPackage;
+
+import java.util.Scanner;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char a, b;
+		a = 'b';
+		System.out.println(a);
+		b = 'c';
+		System.out.println(b);
+		a = b;
+		System.out.println(a);
+	}
+}
+
+OUTPUT:
+
+b
+c
+c
+
+
+
+
+Page # 73
+
+Question 13.
+
+quotient = 2
+remainder = 1
+
+
+
+
+
+
+
+Question 14.
+
+package labTwoPackage;
+
+import java.util.Scanner;
+
+public class Assignment {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double result = (1 / 2) * 2;
+		System.out.println("(1 / 2) * 2 equals " + result);
+		result = (1 / 2.0) * 2;
+		System.out.println("(1 / 2.0) * 2 is equal to " + result);
+		result = (1.0 / 2) * 2;
+		System.out.println("(1.0 / 2) * 2 is equal to " + result);
+	}
+}
+
+OUTPUT:
+
+(1 / 2) * 2 equals 0.0
+(1 / 2.0) * 2 is equal to 1.0
+(1.0 / 2) * 2 is equal to 1.0
+
+Question 15.
+ 
+7 * 3 = 21 
+21% 3 = 0
+0 - 4 - 6 = - 10
+
+result is -10
+
+Note: % is use to calculate remainder.

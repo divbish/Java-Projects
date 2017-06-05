@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;programAssignment1.CD&apos; to &apos;CD_Collection&apos;&#x0A;- Original project: &apos;ProgramAssignment#1&apos;&#x0A;- Original element: &apos;programAssignment1.CD&apos;&#x0A;- Renamed element: &apos;programAssignment1.CD_Collection&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CD&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;programAssignment1{CD.java[CD" matchStrategy="1" name="CD_Collection" qualified="false" references="true" similarDeclarations="false" stamp="1428723969095" textual="false" version="1.0"/>
+</session>

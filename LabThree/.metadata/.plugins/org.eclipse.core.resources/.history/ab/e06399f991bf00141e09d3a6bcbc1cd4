@@ -1,0 +1,19 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Learning {
+
+	public static void main(String[] args) {
+	
+		Scanner keyboard = new Scanner (System.in);
+		double volume,radius,cost=0,pi=22.0/7,height=0;
+		volume=keyboard.nextDouble();
+		radius=keyboard.nextDouble();
+		cost= 2 * pi * radius * (radius+height);
+		System.out.print("HEIGHT IS " + height );
+		System.out.print("COST IS " + cost );
+		
+	}
+
+}

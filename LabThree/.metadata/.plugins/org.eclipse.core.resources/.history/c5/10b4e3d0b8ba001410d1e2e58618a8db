@@ -1,0 +1,17 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i;
+	    for (i = 0;  i <= 3;  i++)
+	      {
+	         System.out.println("from loop:    i = " + i);
+	      }
+	    System.out.println("beyond loop:  i = " + i);
+	}
+
+}

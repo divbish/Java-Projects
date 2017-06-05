@@ -1,0 +1,28 @@
+package lab3Package;
+
+import java.util.Scanner;
+
+public class Learning {
+
+	public static void main(String[] args) {
+	
+		Scanner keyboard = new Scanner (System.in);
+		double volume,radius,cost=0, height=0;
+		final double PI=22.0/7;
+		System.out.println("Enter -99 to exit the program at any time or enter any other integer to continue");
+		int choice = keyboard.nextInt();
+		while(choice != -99)
+		{
+			System.out.print("Enter radius and volume");
+			volume=keyboard.nextDouble();
+			radius=keyboard.nextDouble();
+			cost= 2 * PI * radius * (radius+height);
+			height = volume/(PI*radius*radius);
+			System.out.println("HEIGHT IS " + height );
+			System.out.print("COST IS " + cost );
+			System.out.println("Enter -99 to exit the program or enter any other integer to continue");
+			choice = keyboard.nextInt();
+		}	
+	}
+
+}

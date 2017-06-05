@@ -1,0 +1,26 @@
+package lab3Package;
+import java.util.Scanner;
+
+public class Hw7 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner keyboard = new Scanner (System.in);
+		 System.out.print("Enter a decimel number");
+         double sum=0,average=0,number=keyboard.nextDouble();
+         int count=0;
+		 while (number>=1.0)
+			{
+			 System.out.print("Enter a decimel number");
+	         number=keyboard.nextDouble();
+	         sum = sum +number;
+			 count++;
+			} 
+		 if (count>0){
+		 average = sum/count;
+		 System.out.println("result is " + average);
+		 }
+		 else
+			 System.out.println("nothing to average");
+	}
+}

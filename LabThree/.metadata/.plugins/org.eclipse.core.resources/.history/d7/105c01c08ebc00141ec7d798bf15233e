@@ -1,0 +1,15 @@
+package lab3Package;
+import java.util.Scanner;
+
+public class Hw7 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner keyboard = new Scanner (System.in);
+		 int result=1,i=0;
+		while (i<5)
+			{result = result * 2;
+			i++;}
+		 System.out.println("result is " + result);
+	}
+}

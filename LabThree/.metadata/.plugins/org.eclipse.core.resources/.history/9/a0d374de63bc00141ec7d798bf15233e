@@ -1,0 +1,25 @@
+package lab3Package;
+import java.util.Scanner;
+
+public class Hw7 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner keyboard = new Scanner (System.in);
+		 int population=0;
+		 System.out.print("enter the population of the city");
+		 population = keyboard.nextInt(); // start
+			
+		 while (population > 0)
+
+			 {
+
+				 population = keyboard.nextInt(); // final
+			 }	
+		
+
+		 System.out.print("average is" +population);
+		
+		 }
+	 
+}

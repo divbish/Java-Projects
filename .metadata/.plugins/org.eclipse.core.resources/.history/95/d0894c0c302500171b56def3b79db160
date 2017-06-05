@@ -1,0 +1,12 @@
+package oops;
+
+public class BankAccount implements Account{
+	private int accountNumber;
+	private String customerName;
+	protected int balance;
+	
+	public int withdraw(int amount){
+		return 1;
+	}
+
+}

@@ -1,0 +1,111 @@
+Circles.java
+
+package labTwoPackage;
+import java.util.Scanner;
+public class Circles {
+	
+
+	public static void main(String[] args) 
+	{
+		Scanner keyboard = new Scanner (System.in);
+		final double PT = 3.14;
+		double area, radius, circumference;
+		double pi = 22.0/7;
+		System.out.println ("What is the radius of your circle?");
+		radius = keyboard.nextDouble ( );
+		area = PT * radius * radius;
+		System.out.println ("The area using PT is " + area);
+		area = pi * radius * radius;
+		System.out.println ("The area using pi is " + area);
+	    circumference = 2 * pi * radius;
+		System.out.println ("The circumference using pi is " + circumference );
+		circumference = 2 * PT * radius;
+		System.out.println ("The circumference using PT is " + circumference );
+	  
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+Output
+
+What is the radius of your circle?
+10
+The area using PT is 314.0
+The area using pi is 314.2857142857143
+The circumference using pi is 62.857142857142854
+The circumference using PT is 62.800000000000004
+
+What is the radius of your circle?
+0
+The area using PT is 0.0
+The area using pi is 0.0
+The circumference using pi is 0.0
+The circumference using PT is 0.0
+
+What is the radius of your circle?
+123
+The area using PT is 47505.060000000005
+The area using pi is 47548.28571428571
+The circumference using pi is 773.1428571428571
+The circumference using PT is 772.44
+
+What is the radius of your circle?
+-10
+The area using PT is 314.0
+The area using pi is 314.2857142857143
+The circumference using pi is -62.857142857142854
+The circumference using PT is -62.800000000000004
+
+
+
+
+
+
+
+
+
+
+
+
+Questions
+
+
+What does compiling a Java program mean?
+ans. Compiling a java program mean checking for the syntax of the java program and generating the byte code in form of java classes.
+
+2. How do you correct syntax errors?
+ans. The java compiler detects the syntax errors and suggests the corrections.
+
+3. What does it mean that Java is case-sensitive?
+ans. Java is very strict about case of variables,modifiers,keywords and almost everything in java program. It means a same text in different cases will mean completely different things.
+
+4. What is the formula for the area of a circle and for circumference of a circle?
+ans. area = PT * radius * radius
+     circumference = 2 * pi * radius
+
+5. What is an assignment statement?
+ Is there ever any arithmetic operation on the left hand side of an assignment
+ statement?
+ans. ‘=‘ operator is used for assignment of values to variables. Assignment statement is a statement in which a variable gets value assigned to it. e.g.: circumference = 2*PT*radius
+No, the arithmetic operation will happen only on the right side of ‘=‘ or assignment operator.
+
+6. What does the Scanner class allow us to do?
+ans. The Scanner class allows the program to wait for users input via keyboard and also allows the user to read values of various types.
+
+7. What does it mean that the sequencing of code is important?
+ans. The program executes instructions within a function in the top down approach, so the sequence has to be decided in the form in which output is required. Also, variables cannot be used before they are declared and initialized, so they first have to be declared, then initialized, and only then java will allow them to be used.
+
+8. How do you like programming in Java so far? (Eclipse is a bit tedious, but you will get used
+to it.) Java is fun! 
+ans. Java is a vast area for learners and I am enjoying learning new things everyday. Eclipse is not giving that much of hard time to me as i had thought.

@@ -1,0 +1,26 @@
+package lab3Package;
+import java.util.Scanner;
+
+public class Hw7 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner keyboard = new Scanner (System.in);
+		 int count,number;
+//		 System.out.print("enter the population of the city");
+//		 population = keyboard.nextInt();
+//			
+//		 while (population <= 0)
+//		 {
+//		 System.out.print("Population must be positive");
+//		 System.out.print("Reenter population: ");
+		 number=keyboard.nextInt();
+		 count=1;
+		while (count<=number)
+		{System.out.print(count + ",");
+		count++;
+		 }
+		System.out.println();
+		
+	 
+}}

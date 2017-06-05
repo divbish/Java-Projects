@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;project7.wef.java&apos; to &apos;InvalidException.java&apos;&#x0A;- Original project: &apos;algorithms&apos;&#x0A;- Original element: &apos;project7.wef.java&apos;&#x0A;- Renamed element: &apos;project7.InvalidException.java&apos;" description="Rename compilation unit &apos;wef.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;project7{wef.java" name="InvalidException.java" references="false" stamp="1448591132832" version="1.0"/>
+</session>

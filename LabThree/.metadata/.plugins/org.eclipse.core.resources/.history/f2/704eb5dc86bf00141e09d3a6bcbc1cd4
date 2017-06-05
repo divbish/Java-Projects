@@ -1,0 +1,18 @@
+package lab3Package;
+import java.text.DecimalFormat;
+import java.util.Scanner;
+public class Debug {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner (System.in);
+		int i=0,sum1=0,sum2=0;
+		System.out.println("enter scores of inning one");
+		for(i=0;i<9;i++)
+		{
+			sum1 = sum1 + keyboard.nextInt();
+			sum2 = sum2 + keyboard.nextInt();
+		}
+		
+		System.out.println("total score of team A is" + sum1 +  "\ntotal score of team B is" + sum2);
+	}
+	}

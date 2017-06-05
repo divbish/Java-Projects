@@ -1,0 +1,16 @@
+package oops;
+
+public class SavingAccount extends BankAccount {
+
+	public SavingAccount() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	public int deposit(int amount){
+		return 2;
+	}
+	public int withdraw(int amount){
+		return 2;
+	}
+
+}

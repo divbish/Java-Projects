@@ -1,0 +1,22 @@
+package oops;
+
+public class AccountTransaction {
+
+	public static void main(String[] args) {
+//		SavingAccount savingAccount = new SavingAccount();
+//		int balance = savingAccount.withdraw(10);
+//		System.out.println(balance);
+//		balance = savingAccount.withdraw("Vikram");
+//		System.out.println(balance);
+		String[] customerName = {"vikram", "divya", "inaya"};
+		String temp;
+		for(int i=0; i<3/2; i++){
+			temp=customerName[i];
+			customerName[i] = customerName[customerName.length - 1];
+			customerName[customerName.length - 1] = temp;
+	}
+		for(int j=0; j<3; j++)
+			System.out.println(customerName[j]);
+	}
+
+}

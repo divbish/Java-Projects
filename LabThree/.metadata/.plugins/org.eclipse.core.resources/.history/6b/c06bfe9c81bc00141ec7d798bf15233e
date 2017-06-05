@@ -1,0 +1,19 @@
+package lab3Package;
+import java.util.Scanner;
+
+public class Hw7 
+{
+	public static void main(String[] args) 
+	{
+		 Scanner keyboard = new Scanner (System.in);
+		 int count=0;
+		 while(count <0)
+		 {
+			 System.out.println(count);
+		    // System.out.println("Enter the population of the city");
+			 count;
+			// population = keyboard.nextInt();
+		 }
+		 System.out.print("Population is "+count);
+	 }
+}

@@ -1,0 +1,12 @@
+package oops;
+
+public class AccountTransaction {
+
+	public static void main(String[] args) {
+		SavingAccount savingAccount = new SavingAccount();
+		int balance = savingAccount.deposit(10);
+		System.out.println(balance);
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;labFiveCPackage.rocketShip.java&apos; to &apos;RocketShip.java&apos;&#x0A;- Original project: &apos;LabFiveC&apos;&#x0A;- Original element: &apos;labFiveCPackage.rocketShip.java&apos;&#x0A;- Renamed element: &apos;labFiveCPackage.RocketShip.java&apos;" description="Rename compilation unit &apos;rocketShip.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;labFiveCPackage{rocketShip.java" name="RocketShip.java" references="false" stamp="1425778889417" version="1.0"/>
+</session>

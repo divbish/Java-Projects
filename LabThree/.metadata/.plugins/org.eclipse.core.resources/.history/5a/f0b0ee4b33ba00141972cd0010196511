@@ -1,0 +1,20 @@
+package lab3Package;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class DecimalExample {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner (System.in);
+		double dollar,cent;
+		System.out.print("enter dollar");
+		dollar = keyboard.nextDouble();
+		cent = dollar * 100;
+//		DecimalFormat cents = new DecimalFormat();
+//		cents.setMaximumFractionDigits(2);
+//		cents.setMinimumFractionDigits(2);
+		System.out.print(dollar * 100);
+	}
+
+}

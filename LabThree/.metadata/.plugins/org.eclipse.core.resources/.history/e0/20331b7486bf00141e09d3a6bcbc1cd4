@@ -1,0 +1,14 @@
+package lab3Package;
+
+public class Debug {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum=0, n;
+		for(n=1;n<=10;n++){
+			sum=sum+n;
+		}
+		System.out.println("1+2+...+9+10=="+sum);
+	}
+
+}
